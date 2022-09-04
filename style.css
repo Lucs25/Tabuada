@@ -1,0 +1,52 @@
+body {
+    font: 18px arial;    
+    /*background: rgba(72, 158, 101, 0.167);*/
+    background: url(fundo.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+
+header {
+    text-align: center;
+}
+
+section {
+    background-color: #fff6f66c;
+    border-radius: 10px;
+    border:solid black 1px;
+    padding: 15px;
+    width: 490px;
+    height: 280px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(29, 128, 80, 0.972);
+}
+
+div {
+    text-align: center;
+    padding: 1px;
+    font: 15px Arial;
+    font-weight: Bold;
+    margin-bottom: 2px;
+}
+
+div p {
+    font: 15px arial;
+}
+
+input {
+    border-radius: 20px;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #2591c797;
+    border: solid 2px rgba(61, 61, 147, 0.796);
+    color: #fff
+}
+
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
