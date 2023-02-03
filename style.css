@@ -1,52 +1,66 @@
-body {
-    font: 18px arial;    
-    /*background: rgba(72, 158, 101, 0.167);*/
-    background: url(fundo.jpg) no-repeat;
-    background-size: cover;
-    height: 500px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    background: url(fundo.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: rgba(6, 17, 11, 0.972);
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 header {
     text-align: center;
+    font: 18px;
 }
 
 section {
-    background-color: #fff6f66c;
+    background-color: #fff6f6e1;
     border-radius: 10px;
-    border:solid black 1px;
-    padding: 15px;
-    width: 490px;
-    height: 280px;
-    margin: auto;
-    box-shadow: 5px 5px 10px rgba(29, 128, 80, 0.972);
+    border:solid rgba(29, 128, 80, 0.972) 1px;
+    padding: 20px 5px;
+    max-width: 490px;
+    max-height: 280px;
+    margin: 0 auto;
 }
 
 div {
     text-align: center;
-    padding: 1px;
-    font: 15px Arial;
-    font-weight: Bold;
-    margin-bottom: 2px;
-}
-
-div p {
-    font: 15px arial;
+    margin-bottom: 10px;
 }
 
 input {
-    border-radius: 20px;
+    border: solid 2px rgba(29, 128, 80, 0.972);
+    border-radius: 10px;
     text-align: center;
+}
+
+input.btn{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .btn:hover {
-    background: #2591c797;
-    border: solid 2px rgba(61, 61, 147, 0.796);
-    color: #fff
+    cursor: pointer;
+    color: #fff;
+    background: rgba(29, 128, 80, 0.972);
+    border: solid 2px rgba(29, 128, 80, 0.972);
 }
 
-
 footer {
-    text-align: center;
-    font-style: italic;
+    display: flex;
+    justify-content: center;
+    color: rgba(6, 17, 11, 0.972);
+}
+
+@media(max-width: 540px) {
+    input {
+        display: flex;
+        margin: 10px auto;
+    }
 }
